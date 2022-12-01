@@ -1,16 +1,16 @@
 ![mandel](file.png)
 # mandel
 
-## Dependancies:
+## Dependancies
 ```
 sudo apt install -y plotutils libplot-dev
 ```
-## Build commands:
+## Build
 ```
 gcc -O2 -pipe -c mandel.c
 gcc -o mandel mandel.o -lplot
 ```
-## Usage:
+## Usage
 ```
 ./mandel > file.png
 ```
